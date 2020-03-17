@@ -4,9 +4,7 @@ import NavbarBrand from 'react-bootstrap/NavbarBrand'
 class FooterComponent extends React.PureComponent {
     render() {
      return(   
-      <Navbar style={{backgroundColor: "#071740"}} variant="dark" >
-              <NavbarBrand>Footer</NavbarBrand>
-      </Navbar>)
+    <h1>Side bar</h1>)
     }
   }
   export default FooterComponent
