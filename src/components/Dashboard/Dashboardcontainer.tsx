@@ -9,7 +9,7 @@ class Dashboardcontainer extends React.Component {
         return (
             <div>
                 <h5>
-                    
+                    DASHBOARD
                 </h5>
                 <img src = {banner} style = {{   backgroundPosition: 'center',  backgroundSize: 'cover', height: '100%', width: '100%'}}/>
             </div>
