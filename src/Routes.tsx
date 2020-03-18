@@ -9,7 +9,6 @@ import SignupContainer from './components/Authentication/SignupContainer';
 const DEFAULTROUTES = [
   { path: "/feeds", key: "FEEDS", exact: true, component: Dashboardcontainer },
   { path: "/page", key: "PAGE", exact: true, component: () => <h1>App Page</h1> },
-
 ];
 
 export function AuthRoutes() {
